@@ -1,5 +1,5 @@
 
-export default function ComapnyLogo() {
+export default function CompanyLogo() {
   return (
     <>
       <div className="flex flex-row justify-center items-center">

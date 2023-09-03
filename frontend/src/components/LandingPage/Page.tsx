@@ -1,33 +1,13 @@
 import CallToAction from "../../shared/CallToAction";
-import ComapnyLogo from "../../shared/ComapnyLogo";
 import { textForLandingPage } from "./LP_texts";
 import gloves from '../../public/gloves.jpg'
+import LP_Navbar from "./Navbar/LP_Navbar";
 
 export default function LandingPage() {
   return (
     <div>
       <nav className="flex flex-row space-x-20 justify-center items-center">
-        <div className="mt-10">
-          <ComapnyLogo/>
-        </div>
-        <div className="mt-10 text-black">
-          Solution
-        </div>
-        <div className="mt-10 text-black">
-          Who we serve
-        </div>
-        <div className="mt-10 text-black">
-          Resources
-        </div>
-        <div className="mt-10 text-black">
-          Company
-        </div>
-        <div className="mt-10 text-black">
-          Pricing
-        </div>
-        <div className="mt-10 text-black">
-          <CallToAction/>
-        </div>
+        <LP_Navbar/>
       </nav>
 
       <hr className="bg-black h-[1px] mt-4"></hr>
