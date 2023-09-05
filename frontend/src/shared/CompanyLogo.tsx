@@ -1,3 +1,4 @@
+import HamburgerIcon from "../components/LandingPage/Navbar/HamburgerIcon";
 
 export default function CompanyLogo() {
   return (
@@ -8,6 +9,9 @@ export default function CompanyLogo() {
             <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5" />
         </svg>
         <h1 className="font-extrabold ml-2 text-black">WeCare</h1>
+        <div className="ml-2">
+          <HamburgerIcon/>
+        </div>
       </div>
     </>
 
